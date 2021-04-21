@@ -159,3 +159,6 @@ Command : ***sudo apt-get install libncurses-dev gawk flex bison openssl libssl-
 
 14. then use command ***sudo insmod ./cmpe283-1.ko*** load the file
 15. use command ***dmesg*** show the result message
+![output1](https://github.com/dafei1993/cmpe283/blob/main/hw1ScreenShot/output1.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/hw1ScreenShot/output2.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/hw1ScreenShot/output3.png)
