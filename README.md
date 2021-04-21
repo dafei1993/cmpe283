@@ -2,7 +2,7 @@
 
   ## Work Distribution
 ---
-### 1. Xueli Yang : (Email, Student Id:)
+### 1. Xueli Yang : (dafei19931207@yahoo.com, Student Id:008737742)
 
 1. configure VM 
 ---
