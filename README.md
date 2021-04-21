@@ -4,7 +4,7 @@
 ---
 ### 1. Xueli Yang : (Email, Student Id:)
 
-1. configue VM 
+1. configure VM 
 ---
 ### 2. Bo An : (Email: bo.an.563641292@gmail.com, Student Id: 010695035)
 
@@ -16,13 +16,13 @@
 
 ## Work Procedures
 
-1. Download VMware fusion/workstation from the VMware website(VM fusion is for max OS and workstationi is for windowms OS)
+1. Download VMware fusion/workstation from the VMware website(VM fusion is for mac OS and workstation is for windows OS)
 
 2. Install the application of your choice
 
 3. After installation, from the VMware home panel, create a Virtual machine.
 
-4. In order to have a good experience with later Homework Assignment, the disk storage of the VM should be larger than 100G(as Professor said after building the linux kernel the size of it might grow to a large amount and it is better to give enought space in the beginning)
+4. In order to have a good experience with later Homework Assignment, the disk storage of the VM should be larger than 100G(as Professor said after building the linux kernel the size of it might grow to a large amount and it is better to give enough space in the beginning)
  
 5. Also, VT-X/EPT need to be enabled under the setting panel of VM(it may also have a different name called enable hardware virtualization assist...)
 
