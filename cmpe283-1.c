@@ -44,7 +44,7 @@ struct capability_info pinbased[5] =
 };
 
 /*
- * Primary Proc-based capabilities
+ * Primary Procbased control capabilities
  * See SDM volume 3C, section 24.6.2
  */
 struct capability_info procbased[21] =
@@ -73,7 +73,7 @@ struct capability_info procbased[21] =
 }; 
 
 /*
- * Secondary Proc-based capabilities
+ * Secondary Secondary Procbased control capabilities
  * See SDM volume 3, section 24.6.2
  */
 struct capability_info secondary_procbased[23] =
@@ -104,7 +104,7 @@ struct capability_info secondary_procbased[23] =
 }; 
 
 /*
- * Primary Proc-based capabilities
+ * Primary Entry control capabilities
  * See SDM volume 3C, section 24.7.1
  */
 struct capability_info entry_controls[9] =
@@ -121,7 +121,7 @@ struct capability_info entry_controls[9] =
 };
 
 /*
- * Primary Proc-based capabilities
+ * Primary Exit control capabilities
  * See SDM volume 3C, section 24.8.1
  */
 struct capability_info exit_controls[11] =
@@ -188,9 +188,9 @@ detect_vmx_features(void)
 		(uint64_t)(lo | (uint64_t)hi << 32));
 	report_capability(procbased, 21, lo, hi);
 
-        /* Procbased2 controls */ 
+        /* Secondary Procbased2 controls */ 
 	rdmsr(IA32_VMX_PROCBASED_CTLS2, lo, hi);
-	pr_info("Procbased Controls MSR: 0x%llx\n",
+	pr_info("Secondary Procbased Controls MSR: 0x%llx\n",
 		(uint64_t)(lo | (uint64_t)hi << 32));
 	report_capability(secondary_procbased,23, lo, hi);
 
@@ -207,7 +207,7 @@ detect_vmx_features(void)
 	rdmsr(IA32_VMX_EXIT_CTLS, lo, hi);
 	pr_info("Exit Controls MSR: 0x%llx\n",
 		(uint64_t)(lo | (uint64_t)hi << 32));
-	report_capability(exit_controls, 7, lo, hi);
+	report_capability(exit_controls, 11, lo, hi);
 	
 }
 
