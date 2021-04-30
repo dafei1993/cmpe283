@@ -19,7 +19,7 @@
 ### Procedures
 
 
-1. Install ubuntu for prepartion,clone linux kernel from fork repository ***git clone https://github.com/torvalds/linux.git
+1. Install ubuntu for prepartion,clone linux kernel from fork repository：git clone https://github.com/torvalds/linux.git
 2. Install all libs that needed for building linux kernel by command ***sudo apt-get install libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf***
 3. Check current kernel version by ***uname -a***
 4. Copy config file by command ***cp /boot/config-5.8.0-50-generic ./.config***
