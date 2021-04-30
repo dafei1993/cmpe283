@@ -33,4 +33,4 @@
 13. rebuild and reboot the modified kernel
 14. emulate cpuid instruction with CPUID packed installed in KVM(sudo apt-get install cpuid)
 15. get result
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/screenshot/output.PNG)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/screenshot/58ca13e59ba9a420b85937ac55269cb.png)
