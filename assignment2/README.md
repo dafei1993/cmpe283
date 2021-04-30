@@ -35,3 +35,9 @@
 14. Emulate cpuid instruction with CPUID packed installed in KVM(sudo apt-get install cpuid)
 15. Get result
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/screenshot/58ca13e59ba9a420b85937ac55269cb.png)
+### Questions
+1. Comment on the frequency of exits - does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations?
+  No, its not stable.
+  
+2. Approximately how many exits does a full VM boot entail? 
+  around 600000 exits
