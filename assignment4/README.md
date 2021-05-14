@@ -18,9 +18,6 @@ Test on the code
   5. reboot the VM and run Dmsg command to see the output message
 
 
-## Result:
-
-
 ## Qeustions
 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
 
