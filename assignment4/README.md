@@ -34,4 +34,4 @@ ept
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withept.jpg)
 noept 
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/noept.jpg)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/noept.png)
