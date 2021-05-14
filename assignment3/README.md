@@ -19,7 +19,6 @@ Test on the code in inner vm
 
 ## Result:
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment3/hw3Screenshot/result1.jpg)
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment3/hw3Screenshot/result2.jpg)
 
 ## Qeustions
