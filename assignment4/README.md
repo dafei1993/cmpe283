@@ -24,8 +24,8 @@ Test on the code
 ## Qeustions
 1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
 
-3.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”. 
+2.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”. 
 
-4.What did you learn from the count of exits? Was the count what you expected? If not, why not? 
+3.What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
-5.What changed between the two runs (ept vs no-ept)?
+4.What changed between the two runs (ept vs no-ept)?
