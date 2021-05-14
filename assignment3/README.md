@@ -16,5 +16,5 @@
   5. Test the modified kernel by using kvm
   
 ## Qeustions
-  1.Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
-  2.Of the exit types defined in the SDM, which are the most frequent? Least?
+  1. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
+  2. Of the exit types defined in the SDM, which are the most frequent? Least?
