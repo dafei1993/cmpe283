@@ -7,7 +7,7 @@ Test on the code
 
 - Bo An (Email: bo.an.563641292@gmail.com)
   
-  Work with Xueli to implete the features required by this assignment. And primarily worked on the cpuid.c and vmx.c to find out the nuber and frequency of exits of each type when cpuid leaf is called
+Researched and worked on writing the code for executing the Primary VM Based Controls and Secondary VM Based Controls for the Assignment. Added the corresponding code implementations and their outputs in the cmpe283-1.c and README.md file respectively
   
 ## Procedures:
   1. This assignment is based on the code of assignment 3 , so the first step is to run the assignment3 code
