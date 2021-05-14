@@ -10,18 +10,21 @@ Test on the code
   Work with Xueli to implete the features required by this assignment. And primarily worked on the cpuid.c and vmx.c to find out the nuber and frequency of exits of each type when cpuid leaf is called
   
 ## Procedures:
-  1. worked on the kvm on Ubuntu20.04
-  2. Follow the asssignment guildine to build the kernel to the latest version.
-  3. research and watch the introduction of assignemnt video to get idea about what should we do in this assignment
-  4. modify the vmx.c functions to calculate the number of exisit by using atomic varibale
-  5. impletement the leaf function of 0x4ffffffe
-  5. Test the modified kernel by using kvm
+  1. This assignment is based on the code of assignment 3 , so the first step is to run the assignment3 code
+  2. after VM boot, run Dmesg to see the host machine and total count of exit type
+  3. run command rmmod kvm-intel to remove the kvm intel module
+  4. insert the vkm-intel module with ept = 0 to diable nested paging and enable shadow paging by command insmod /lib/modules/XXX/kernel/arch/x86/kvm/kvm-intel.ko ept=0
+  5. reboot the VM and run Dmsg command to see the output message
+
 
 ## Result:
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment3/hw3Screenshot/result1.jpg)
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment3/hw3Screenshot/result2.jpg)
 
 ## Qeustions
-  1. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
-  2. Of the exit types defined in the SDM, which are the most frequent? Least?
+1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
+
+3.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”. 
+
+4.What did you learn from the count of exits? Was the count what you expected? If not, why not? 
+
+5.What changed between the two runs (ept vs no-ept)?
