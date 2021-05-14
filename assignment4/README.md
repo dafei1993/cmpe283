@@ -28,4 +28,4 @@ When EPT is set to zero, we looked on the shadow paging approach instead of the 
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withept.jpg)
 noept 
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/noept.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withoutept.jpg)
