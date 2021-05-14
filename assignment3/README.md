@@ -19,8 +19,8 @@ Test on the code
 
 ## Result:
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result1.png)
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result2.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result1.jpg)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result2.jpg)
 
 ## Qeustions
   1. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
