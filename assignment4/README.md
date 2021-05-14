@@ -24,8 +24,8 @@ look on with ept
 What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
 What changed between the two runs (ept vs no-ept)?
-When EPT is set to zero, we looked on the shadow paging approach instead of the nested paging approach followed when the EPT is not set to zero.  CR3 exits, Page Fault Exits and TLB Flush exits. These 3 types of exits occur in addition to the EPT. 
+When EPT is set to zero, we looked on the shadow paging approach instead of the nested paging approach followed when the EPT is not set to zero.  CR3 exits, Page Fault Exits and TLB Flush exits. These 3 types of exits occur in addition to the EPT. So that's why ept is more than no-ept
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withept.jpg)
 noept 
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withoutept.jpg)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/noept.png)
