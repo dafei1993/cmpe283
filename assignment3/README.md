@@ -16,7 +16,12 @@ Test on the code
   4. modify the vmx.c functions to calculate the number of exisit by using atomic varibale
   5. impletement the leaf function of 0x4ffffffe
   5. Test the modified kernel by using kvm
-  
+
+## Result:
+
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result1.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment2/hw3Screenshot/result2.png)
+
 ## Qeustions
   1. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
   2. Of the exit types defined in the SDM, which are the most frequent? Least?
