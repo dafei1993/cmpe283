@@ -29,3 +29,5 @@ Test on the code
 3.What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
 4.What changed between the two runs (ept vs no-ept)?
+ept ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4screenshot/withept.jpg)
+noept ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4screenshot/noept.jpg)
