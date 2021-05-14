@@ -6,8 +6,8 @@ Changing code in cpuid.c and vmx.c
 Test on the code
 
 - Bo An (Email: bo.an.563641292@gmail.com)
-  
-Researched and worked on writing the code for executing the Primary VM Based Controls and Secondary VM Based Controls for the Assignment. Added the corresponding code implementations and their outputs in the cmpe283-1.c and README.md file respectively
+  reaseach and write code for executing the primary and secondary VM based control. And implment their outputs in hte test fiel and README.md file
+
   
 ## Procedures:
   1. This assignment is based on the code of assignment 3 , so the first step is to run the assignment3 code
