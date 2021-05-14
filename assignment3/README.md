@@ -4,7 +4,7 @@
 - Xueli Yang(Email:dafei19931207@gmail.com)
 
   Changing code in cpuid.c and vmx.c
-Test on the code in inner vm
+  Test on the code in inner vm
 
 - Bo An (Email: bo.an.563641292@gmail.com)
   
