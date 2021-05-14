@@ -24,7 +24,10 @@ Test on the code in inner vm
 
 ## Qeustions
   1. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM operations? Approximately how many exits does a full VM boot entail? 
+  
   Made changes in the vmx_handle_exit function of the vmx.c file to calculate the number of exits by using the atomic_inc function. Atomic variables were used to make the system concurrent. The atomic variable was initialized in cpuid.c and exported in vmx.c using the export_symbol function.
-  3. Of the exit types defined in the SDM, which are the most frequent? Least?
+  
+  2. Of the exit types defined in the SDM, which are the most frequent? Least?
+ 
   Most Frequent Exit Types : 30 (IO Instruction), 28 (Control Register Accesses)
-Least Frequest Exit Types : 29 (MOV DR), 54 (WBINVD)
+  Least Frequest Exit Types : 29 (MOV DR), 54 (WBINVD)
