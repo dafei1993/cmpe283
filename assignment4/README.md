@@ -5,7 +5,8 @@
 Changing code in cpuid.c and vmx.c
 Test on the code
 
-- Bo An (Email: bo.an.563641292@gmail.com)
+- Bo An (Email: bo.an.563641292@gmail.com. SID: 010695035)
+  
   reaseach and write code for executing the primary and secondary VM based control. And implment their outputs in hte test fiel and README.md file
 
   
