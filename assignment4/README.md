@@ -19,7 +19,7 @@ look on with ept
 
 ## Qeustions
 
-
+Check data and data2.txt to see the output dmsg
 
 What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
@@ -28,4 +28,4 @@ When EPT is set to zero, we looked on the shadow paging approach instead of the 
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withept1.jpg)
 noept 
 
-![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/noept.png)
+![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withoutept.jpg)
