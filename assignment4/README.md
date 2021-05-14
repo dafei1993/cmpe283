@@ -2,12 +2,11 @@
 
 ## work:
 - Xueli Yang(Email:dafei19931207@gmail.com)
-Changing code in cpuid.c and vmx.c
-Test on the code
+look on with ept
 
 - Bo An (Email: bo.an.563641292@gmail.com. SID: 010695035)
   
-  reaseach and write code for executing the primary and secondary VM based control. And implment their outputs in hte test fiel and README.md file
+ look on without ept
 
   
 ## Procedures:
@@ -19,15 +18,13 @@ Test on the code
 
 
 ## Qeustions
-1.For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched. (You may skip this question if you are doing the lab by yourself).
 
-2.Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”. 
 
-3.What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
-4.What changed between the two runs (ept vs no-ept)?
-ept 
+What did you learn from the count of exits? Was the count what you expected? If not, why not? 
 
+What changed between the two runs (ept vs no-ept)?
+When EPT is set to zero, we looked on the shadow paging approach instead of the nested paging approach followed when the EPT is not set to zero.  CR3 exits, Page Fault Exits and TLB Flush exits. These 3 types of exits occur in addition to the EPT. 
 ![output1](https://github.com/dafei1993/cmpe283/blob/main/assignment4/hw4Screenshot/withept.jpg)
 noept 
 
